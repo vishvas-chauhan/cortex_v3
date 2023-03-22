@@ -11,6 +11,10 @@ gsutil cp -r gs://kittycorn-test-harness-us-central1/ecc/ gs://$RAW_BUCKET
 ###### <Project_number>.@cloudbuild.gserviceaccount.com
 ![cloud build IAM only](./iam_cloudbuild.jpg)
  - Then clone the repo 
+ ```bash
+ git clone --recurse-submodules https://github.com/GoogleCloudPlatform/cortex-data-foundation
+ cd cortex-data-foundation
+ ```
 
  - Then run deploy.sh file.
  ``` bash 
